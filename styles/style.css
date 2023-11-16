@@ -46,6 +46,7 @@
   background-size: cover;
   background-attachment: fixed;
   min-inline-size: var(--content-min-inline-size);
+  inline-size: 100%;
   min-block-size: 100dvb;
   max-inline-size: var(--content-max-inline-size);
   font-weight: var(--main-color);
