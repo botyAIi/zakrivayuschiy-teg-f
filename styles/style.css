@@ -21,7 +21,7 @@
 .page {
   padding: 100px 0;
   color: var(--main-color);
-  font-family: var(--main-font-family);
+  font-family: 'Inter', sans-serif;
   background: repeating-linear-gradient(
     180deg,
     var(--bg-lines-c),
@@ -48,8 +48,9 @@
   min-inline-size: var(--content-min-inline-size);
   min-block-size: 100dvb;
   max-inline-size: var(--content-max-inline-size);
-  font-variation-settings: 'wght' var(--main-font-w);
+  font-weight: var(--main-color);
 }
+
 
 .header {
   display: flex;
@@ -166,11 +167,11 @@
 
 .card__title {
   --main-font-w: var(--main-font-w-bold);
-
+  
   padding: 5px 10px;
   font-family: inherit;
   font-size: 18px;
-  font-variation-settings: 'wght' var(--main-font-w)
+  font-weight: var(--main-font-w);
 }
 
 .card__picture-container {
@@ -229,7 +230,7 @@
   font-size: 14px;
   font-style: normal;
   text-shadow: -1px -1px var(--bg-content-c), 1px 1px var(--bg-content-c),
-    1px -1px var(--bg-content-c), -1px 1px var(--bg-content-c);
+  1px -1px var(--bg-content-c), -1px 1px var(--bg-content-c);
 }
 
 @supports (text-stroke: 1px #000) or (-webkit-text-stroke: 1px #000) {
@@ -476,7 +477,7 @@ dialog::backdrop {
   .button__dialog {
     flex-direction: column;
   }
-
+  
   .dialog-icon {
     inline-size: 28px;
     block-size: 28px;
@@ -487,6 +488,18 @@ dialog::backdrop {
 
 @media (width <= 375px) {
   .header__title {
-    font-size: clamp(2.8125rem, 1.358rem + 7.2727vi, 3.0625rem);
+    font-size: clamp(2.6875rem, 0.5057rem + 10.9091vi, 3.0625rem);;
   }
 }
+
+@supports (font-variation-settings: normal) {
+  .page {
+      font-family: var(--main-font-family);
+      font-variation-settings: 'wght' var(--main-font-w);
+  }
+
+  .card__title {
+    font-variation-settings: 'wght' var(--main-font-w);
+  }
+  
+} 
