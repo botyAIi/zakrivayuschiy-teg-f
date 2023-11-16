@@ -1,3 +1,4 @@
+/* stylelint-disable property-no-unknown */
 /* stylelint-disable custom-property-pattern */
 /* stylelint-disable property-no-vendor-prefix */
 /* stylelint-disable selector-class-pattern */
@@ -182,32 +183,32 @@
   aspect-ratio: 1/1;
 }
 
-.card:nth-child(2) .card__picture {
+.grayscale {
   filter: grayscale(0.8);
 }
 
-.card:nth-child(3) .card__picture {
-  filter: saturate(350%);
+.saturate {
+  filter: saturate(400%);
 }
 
-.card:nth-child(4) .card__picture {
-  filter: contrast(80%);
+.hue-rotate {
+  filter: hue-rotate(30deg);
 }
 
-.card:nth-child(5) .card__picture {
+.invert {
   filter: invert(0.8);
 }
 
-.card:nth-child(6) .card__picture {
-  filter: grayscale(0.9);
+.sepia {
+  filter: saturate(110%) contrast(110%) sepia(90%) ;
 }
 
-.card:nth-child(7) .card__picture {
-  filter: blur(9px);
+.blur {
+  filter: blur(20px);
 }
 
-.card:nth-child(8) .card__picture {
-  filter: hue-rotate(50deg) contrast(150%) saturate(80%) blur(1.5px);
+.custom {
+  filter: hue-rotate(90deg) contrast(60%) saturate(130%) blur(2px) opacity(95%);
 }
 
 .watermark {
@@ -244,7 +245,7 @@
 .card__pharagraph {
   font-weight: var(--main-font-w-normal);
   font-size: var(--main-font-size);
-  line-height: 1.1666666667;
+  line-height: calc(21 / 18);
 }
 
 .card__like-button-container {
@@ -376,7 +377,7 @@
 }
 
 .button:focus-visible {
-  box-shadow: 2px 2px 0px 0px var(--main-color);
+  box-shadow: 2px 2px 0 0 var(--main-color);
 }
 
 .button__text {

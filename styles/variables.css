@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main-color: #000;
@@ -16,7 +16,7 @@
   --main-font-w-bold: 700;
   --main-like-icon-c: #000;
   --like-default: transparent;
-  --like-liked-c: #ff0000;
+  --like-liked-c: #FF0000;
   --main-font-size: 18px;
   --font-size-button: 14px;
   --likeB-inline-size: 130px;
