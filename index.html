@@ -377,18 +377,20 @@
     <button class="button__dialog button" type="button" onclick="window['dialog-id'].showModal()"
       aria-controls="dialog-id">
       <svg class="dialog-icon" viewBox="0 0 29 28">
-        <use href="./svg/floppy.svg#floppy" class="load-icon">
+        <use href="./svg/floppy.svg#floppy" class="load-icon"/>
       </svg>
       <span class="button__text">Сохранить на память</span>
     </button>
     <dialog id="dialog-id" class="dialog-window">
       <svg class="dialog-icon" viewBox="0 0 29 28">
-        <use href="./svg/floppy.svg#floppy" class="load-icon">
+        <use href="./svg/floppy.svg#floppy" class="load-icon"/>
       </svg>
       <span class="button__text dialog__text">Вставьте дискету, чтобы продолжить</span>
-      <button class="button" type="button" onclick="window['dialog-id'].close()">
-        <span class="button__text">OK</span>
-      </button>
+      <form method="dialog" class="dialog-close">
+        <button class="button">
+          <span class="button__text">OK</span>
+        </button>
+      </form>
     </dialog>
   </main>
   <script src="./scripts/like.js"></script>

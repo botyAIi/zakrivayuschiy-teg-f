@@ -12,7 +12,7 @@
   --bg-linear-c-block-end: #004306;
   --bg-content-c: #000;
   --button-color: #00CC14;
-  --main-font-w-normal: 465;
+  --main-font-w: 465;
   --main-font-w-bold: 785;
   --main-like-icon-c: #00CC14;
 }
@@ -24,12 +24,12 @@
   --bg-linear-c-block-end: #1A1A1A;
   --bg-content-c: #FFF;
   --button-color: #FFF;
-  --main-font-w-normal: 400;
+  --main-font-w: 400;
   --main-font-w-bold: 700;
   --main-like-icon-c: #000;
 }
 
-@media (prefers-color-scheme: dark){
+@media (prefers-color-scheme: dark) {
   :root {
     --main-color: #00CC14;
     --bg-lines-c: #000;
@@ -37,13 +37,13 @@
     --bg-linear-c-block-end: #004306;
     --bg-content-c: #000;
     --button-color: #00CC14;
-    --main-font-w-normal: 465;
+    --main-font-w: 465;
     --main-font-w-bold: 785;
     --main-like-icon-c: #00CC14;
   }
 }
 
-@media (prefers-color-scheme: light){
+@media (prefers-color-scheme: light) {
   :root {
     --main-color: #000;
     --bg-lines-c: #d3d3d3;
@@ -51,7 +51,7 @@
     --bg-linear-c-block-end: #1A1A1A;
     --bg-content-c: #FFF;
     --button-color: #FFF;
-    --main-font-w-normal: 400;
+    --main-font-w: 400;
     --main-font-w-bold: 700;
     --main-like-icon-c: #000;
   }

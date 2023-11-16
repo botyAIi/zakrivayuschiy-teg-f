@@ -2,17 +2,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main-color: #000;
-  --main-font-family: "Inter", sans-serif;
+  --main-font-family: 'Inter-Variable', sans-serif;
   --bg-lines-c: #d3d3d3;
   --bg-linear-c-block-start: #E7E7E7;
   --bg-linear-c-block-end: #1A1A1A;
-  --accent-font-family: "Press Start 2P", monospace;
+  --accent-font-family: 'Press Start 2P', monospace;
   --bg-content-c: #FFF;
   --button-color: #000;
   --content-max-inline-size: 700px;
   --content-min-inline-size: 320px;
   --content-min-block-size: 323px;
-  --main-font-w-normal: 400;
+  --main-font-w: 400;
   --main-font-w-bold: 700;
   --main-like-icon-c: #000;
   --like-default: transparent;
