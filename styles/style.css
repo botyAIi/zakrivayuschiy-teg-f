@@ -270,45 +270,45 @@
   outline: 2px solid var(--main-color);
 }
 
-.like-icon #stroke {
+.like-icon .stroke {
   fill: var(--main-like-icon-c);
   transition: fill 0.3s linear;
 }
 
-.like-icon #inside {
+.like-icon .inside {
   fill: var(--like-default);
   transition: fill 0.3s linear;
 }
 
-.like-icon #cross {
+.like-icon .cross {
   fill: var(--like-default);
   transition: fill 0.3s 0.03s linear;
 }
 
-.like-icon #points {
+.like-icon .points {
   fill: var(--like-default);
 }
 
-.like-icon:hover #stroke {
+.like-icon:hover .stroke {
   fill: var(--main-like-icon-c);
 }
 
-.like-icon:hover #inside {
+.like-icon:hover .inside {
   fill: var(--main-like-icon-c);
   transition: fill 0.3s 0.05s linear;
 }
 
-.like-icon:hover #cross {
+.like-icon:hover .cross {
   fill: var(--main-like-icon-c);
   transition: fill 0.3s linear;
 }
 
-.like-icon:active #inside {
+.like-icon:active .inside {
   fill: var(--like-liked-c);
   transition: fill 0.3s 0.05s linear;
 }
 
-.like-icon:active #cross {
+.like-icon:active .cross {
   fill: var(--like-liked-c);
   transition: fill 0.3s linear;
 }
@@ -319,22 +319,22 @@
   animation-iteration-count: 2;
 }
 
-.like-icon.is-liked .heart #cross {
+.like-icon.is-liked .heart .cross {
   fill: var(--like-liked-c);
   transition: fill 0.3s linear;
 }
 
-.like-icon.is-liked .heart #inside {
+.like-icon.is-liked .heart .inside {
   fill: var(--like-liked-c);
   transition: fill 0.3s 0.05s linear;
 }
 
-.like-icon.is-liked .heart #stroke {
+.like-icon.is-liked .heart .stroke {
   fill: var(--like-liked-c);
   transition: fill 0.3s 0.06s linear;
 }
 
-.like-icon.is-liked #points {
+.like-icon.is-liked .points {
   animation: points 0.3s 0.3s ease-in alternate backwards;
   animation-iteration-count: 2;
 }
