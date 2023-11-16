@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Опишите в этом файле все keyframes для проекта и стили анимаций иконки Like.
 
 Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
@@ -12,3 +13,27 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+@keyframes arrow {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(4px);
+  }
+}
+@keyframes isLiked {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.5;
+  }
+}
+@keyframes points {
+  from {
+    fill: var(--like-default);
+  }
+  to {
+    fill: var(--like-liked-c);
+  }
+}
