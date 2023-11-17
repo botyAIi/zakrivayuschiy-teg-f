@@ -5,7 +5,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main-color: #000;
-  --main-font-family: 'Inter-Variable', Inter, sans-serif;
+  --main-font-family: 'Inter-Variable', Arial, sans-serif;
   --bg-lines-c: #d3d3d3;
   --bg-linear-c-block-start: #E7E7E7;
   --bg-linear-c-block-end: #1A1A1A;
