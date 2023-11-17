@@ -1,4 +1,7 @@
+/* stylelint-disable font-family-name-quotes */
+
 /* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */
+
 @font-face {
   font-family: 'Press Start 2P';
   src:
