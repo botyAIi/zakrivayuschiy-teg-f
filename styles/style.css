@@ -437,7 +437,6 @@
   color: inherit;
   background-color: var(--bg-content-c, #FFF);
   inline-size: clamp(21.3125rem, 20.1587rem + 4.9231vw, 22.3125rem);
-  block-size: 195px;
 }
 
 dialog::backdrop {
