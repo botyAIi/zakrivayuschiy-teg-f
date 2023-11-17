@@ -39,11 +39,11 @@
 @keyframes points {
 
   from {
-    fill: var(--like-default);
+    fill: var(--like-default, transparent);
   }
 
   to {
-    fill: var(--like-liked-c);
+    fill: var(--like-liked-c, #FF0000);
   }
   
 }
